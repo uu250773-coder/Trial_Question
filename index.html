@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js practice</title>
+</head>
+<body>
+    <script type="text/javascript">
+        //Ask user for two numbers
+        let num1 = parseFloat(prompt("Enter the first number:"));
+        let num2 = parseFloat(prompt("Enter the second number:"));
+
+        //Ask user for operator
+        let operation = prompt("Enter an operation (+, -, *, /):");
+        let result;
+
+        //Use if statements to check for operation
+        if (operation == "+"){
+            result = num1 + num2;
+            alert("Result: " + result);
+        }
+        else if (operation == "-"){
+            result = num1 - num2;
+            alert("Result" + result);
+        }
+        else if (operation == "*"){
+            result = num1 * num2;
+            alert("Result" + result);
+        } 
+        else if (operation == "/"){
+            result = num1 / num2;
+            alert("Result" + result);
+        }  
+        else{
+            alert("Invalid operation");
+        }
+         </script>
+</body>
+</html>
